@@ -1,0 +1,5 @@
+set_global_assignment -name IP_TOOL_NAME "ALTMULT_ADD"
+set_global_assignment -name IP_TOOL_VERSION "12.1"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "dsp_4mult_add.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "dsp_4mult_add_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "dsp_4mult_add_bb.v"]
